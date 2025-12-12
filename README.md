@@ -15,20 +15,32 @@ This work was published in **Scientific Reports**, Volume 15, Nature Publishing 
 
 ## 📌 Abstract
 
-Recent advances in lensless, flat camera designs hold the promise of significantly reducing size and weight by replacing bulky lenses with thin optical elements that modulate incoming light. However, recovering high-quality images from the raw sensor measurements of such systems remains challenging. We address this limitation by introducing a novel reconstruction framework that leverages a pre-trained diffusion model, guided by a control network and a learnable separable transformation. This approach delivers high-fidelity images, achieving state-of-the-art performance in both objective and perceptual metrics. Our method achieves 20.43 PSNR, 0.612 SSIM, and 0.237 LPIPS on the FlatNet dataset, representing improvements of 9.6%, 18.1%, and 26.4% respectively over the previous state-of-the-art FlatNet method. Additionally, the text-conditioned nature of the diffusion model enables optional enhancement through scene descriptions, particularly valuable for compact imaging systems where user input can help resolve reconstruction ambiguities. We demonstrate the effectiveness of our method on a 8 flat camera, paving the way for advanced lensless imaging solutions and offering a robust framework for improved reconstructions that is relevant to a broad range of computational imaging systems.
-![Results](assets/teas.jpg)
+Recent advances in lensless, flat camera designs hold the promise of significantly reducing size and weight by replacing bulky lenses with thin optical elements that modulate incoming light. However, recovering high-quality images from the raw sensor measurements of such systems remains challenging. We address this limitation by introducing a novel reconstruction framework that leverages a pre-trained diffusion model, guided by a control network and a learnable separable transformation. This approach delivers high-fidelity images, achieving state-of-the-art performance in both objective and perceptual metrics. Our method achieves 20.43 PSNR, 0.612 SSIM, and 0.237 LPIPS on the FlatNet dataset, representing improvements of 9.6%, 18.1%, and 26.4% respectively over the previous state-of-the-art FlatNet method. Additionally, the text-conditioned nature of the diffusion model enables optional enhancement through scene descriptions, particularly valuable for compact imaging systems where user input can help resolve reconstruction ambiguities. We demonstrate the effectiveness of our method on a prototype flat camera, paving the way for advanced lensless imaging solutions and offering a robust framework for improved reconstructions that is relevant to a broad range of computational imaging systems.
+
+<p align="center">
+  <img src="assets/teas.jpg" alt="Results" width="40%">
+</p>
 
 ### Project Diagram Overview
 
-![Project Diagram](assets/diagram.jpg)
+<p align="center">
+  <img src="assets/diagram.jpg" alt="Project Diagram" width="80%">
+</p>
 
 ## 🧪 Results
 
 ### Simulation
-![Project Results](assets/results.jpg)
+
+<p align="center">
+  <img src="assets/results.jpg" alt="Project Results" width="70%">
+</p>
 
 ### Real-World
-![Real-World Results](assets/real_results.jpg)
+
+<p align="center">
+  <img src="assets/real_results.jpg" alt="Real-World Results" width="40%">
+</p>
+
 
 ---
 
