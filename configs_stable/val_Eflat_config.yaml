@@ -1,0 +1,28 @@
+main_path: /data/Documents/difuzcam
+
+seed: 42
+pretrained_model_name_or_path: "stabilityai/stable-diffusion-2-1-base"
+output_dir: null
+dataset_name: ErezYosef/Difuzcam_dataset
+dataset_config_name: captions_fullsize_verified
+
+resolution: 512
+learning_rate: 0.00005
+num_train_epochs: 10000
+
+# Stable Diffusion inference settings
+num_inference_steps: 20
+guidance_scale: 1
+set_grads_to_none: True
+
+# Data settings
+max_val_samples: 100
+val_shuffle_seed: null
+dataloader_num_workers: 8
+
+# Save settings
+push_to_hub: False
+
+# Wandb settings
+report_to: null
+tracker_project_name: stable_controlnet_sample
